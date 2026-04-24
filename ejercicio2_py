@@ -1,0 +1,12 @@
+
+"""
+Ejercicio 2:
+
+Número par o impar
+Pide un número entero e indica si es par o impar.
+"""
+num1 = float(input("ingrese un numero:"))
+if num1 % 2 == 0:
+    print (f"este numero es par")
+else :
+    print(f"este numero es impar")
